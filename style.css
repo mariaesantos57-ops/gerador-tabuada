@@ -1,0 +1,61 @@
+
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: rgb(248, 238, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(126, 82, 154);
+}
+
+.tabuada{
+    margin: 20px auto;
+    background-color: rgb(225, 202, 240);
+    border-radius: 18px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(126, 82, 154, 0.15);
+}
+
+input, button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 185, 225);
+    outline: none;
+}
+
+input{
+    background-color: rgb(255, 250, 255);
+}
+
+button{
+    background-color: rgb(191, 153, 214);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(166, 122, 194);
+}
+
+#resultado{
+    margin: 20px auto;
+    width: 200px;
+    font-size: 18px;
+}
+
+.linha{
+    border: 1px solid rgb(207, 175, 222);
+    padding: 8px;
+    margin: 4px 0;
+    background-color: rgb(255, 249, 255);
+    border-radius: 8px;
+    color: rgb(105, 75, 125);
+}
